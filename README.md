@@ -1,13 +1,14 @@
-# PalletCapturingandRecognition
+## Donate
 
-### Donate
+If you find this project useful, consider supporting its development:
 
-USDT/TRC: TKkMqRFpoR64WveWaKQahQQ9EeAFz2AgMn
+| Network | Address |
+|---------|---------|
+| **USDT / TRC20** | `TKkMqRFpoR64WveWaKQahQQ9EeAFz2AgMn` |
+| **USDT / BEP20** | `0x1484f7e7e3a240c660d427a3ac253a8d29cbc8bf` |
+| **USDT / SOL** | `FBPMCgkqTX8maefy2GyXBJh4qrtsXXpKZ3TVkxcjAL1A` |
+| **USDT / ERC20** | `0x1484f7e7e3a240c660d427a3ac253a8d29cbc8bf` |
+| **TAO / TAO** | `5FvNqfanTRk38TzMh56PBkcpkwWyXHbhijkXm9AVevQ8nmXo` |
 
-USDT/BEP: 0x1484f7e7e3a240c660d427a3ac253a8d29cbc8bf
-
-USDT/SOL: FBPMCgkqTX8maefy2GyXBJh4qrtsXXpKZ3TVkxcjAL1A
-
-USDT/ERC20: 0x1484f7e7e3a240c660d427a3ac253a8d29cbc8bf
-
-TAO/TAO: 5FvNqfanTRk38TzMh56PBkcpkwWyXHbhijkXm9AVevQ8nmXo
+If you want, I can add more sections (description, features, installation,
+usage, screenshots, etc.) — just let me know what the project does.
