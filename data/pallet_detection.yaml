@@ -1,0 +1,9 @@
+# YOLO Dataset Config - Pallet Detection
+path: ../data/processed/pallet_detection
+train: train/images
+val: val/images
+test: test/images
+
+nc: 1
+names:
+  0: pallet

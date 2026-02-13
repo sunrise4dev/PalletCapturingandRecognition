@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Data (large files)
+data/raw/images/*.jpg
+data/raw/images/*.png
+data/raw/images/*.jpeg
+data/processed/
+
+# Model weights
+models/pallet_detection/*.pt
+models/sticker_detection/*.pt
+models/exports/
+
+# Training runs
+runs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/

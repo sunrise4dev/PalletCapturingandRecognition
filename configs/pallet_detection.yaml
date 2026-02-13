@@ -1,0 +1,24 @@
+# Pallet Detection Model Configuration
+model:
+  base: "yolov8n.pt"
+  task: "detect"
+
+training:
+  data: "data/pallet_detection.yaml"
+  epochs: 100
+  batch_size: 16
+  image_size: 640
+  patience: 20
+  optimizer: "AdamW"
+  lr0: 0.001
+  weight_decay: 0.0005
+  augment: true
+  device: ""
+
+output:
+  project: "runs/pallet_detection"
+  name: "train"
+  save_dir: "models/pallet_detection"
+
+classes:
+  - "pallet"

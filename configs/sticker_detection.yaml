@@ -1,0 +1,25 @@
+# Sticker Detection Model Configuration
+model:
+  base: "yolov8n.pt"
+  task: "detect"
+
+training:
+  data: "data/sticker_detection.yaml"
+  epochs: 150
+  batch_size: 16
+  image_size: 640
+  patience: 25
+  optimizer: "AdamW"
+  lr0: 0.001
+  weight_decay: 0.0005
+  augment: true
+  device: ""
+
+output:
+  project: "runs/sticker_detection"
+  name: "train"
+  save_dir: "models/sticker_detection"
+
+classes:
+  - "sticker"
+  - "barcode"
