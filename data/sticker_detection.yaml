@@ -1,0 +1,10 @@
+# YOLO Dataset Config - Sticker Detection
+path: ../data/processed/sticker_detection
+train: train/images
+val: val/images
+test: test/images
+
+nc: 2
+names:
+  0: sticker
+  1: barcode
