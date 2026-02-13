@@ -1,0 +1,43 @@
+# Full Pipeline Configuration
+pipeline:
+  pallet_detection:
+    model_path: "models/pallet_detection/best.pt"
+    confidence_threshold: 0.5
+    iou_threshold: 0.45
+    image_size: 640
+
+  alignment:
+    enabled: true
+    method: "perspective"
+    padding_ratio: 0.05
+
+  sticker_detection:
+    model_path: "models/sticker_detection/best.pt"
+    confidence_threshold: 0.4
+    iou_threshold: 0.45
+    image_size: 640
+
+  ocr:
+    engine: "tesseract"
+    language: "eng"
+    psm: 6
+    preprocessing:
+      grayscale: true
+      threshold: true
+      threshold_method: "otsu"
+      denoise: true
+      scale_factor: 2.0
+
+  barcode:
+    enabled: true
+    supported_types:
+      - "CODE128"
+      - "CODE39"
+      - "EAN13"
+      - "QRCODE"
+
+  output:
+    save_visualizations: true
+    visualization_dir: "output/visualizations"
+    save_results_json: true
+    results_dir: "output/results"
